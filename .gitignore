@@ -1,0 +1,9 @@
+.vscode
+
+# Ignora todos os executáveis sem extensão dentro de subpastas
+*/*
+# Não ignora as pastas em si
+!*/
+# Não ignora os arquivos de código fonte .c ou cabeçalhos .h
+!*/*.c
+!*/*.h
