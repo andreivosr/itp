@@ -7,4 +7,5 @@ int main() {
     double total_salary = hours * salary;
     printf("NUMBER = %d\n", number);
     printf("SALARY = U$ %.2lf\n", total_salary); 
+    return 0;
 }
