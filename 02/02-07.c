@@ -1,10 +1,7 @@
 #include <stdio.h>
-
 int main(void) {
     int ddd;
-
     scanf("%d", &ddd);
-
     switch (ddd) {
         case 61:
             printf("Brasilia\n");
@@ -33,6 +30,5 @@ int main(void) {
         default:
             printf("DDD nao cadastrado\n");
     }
-
     return 0;
 }
