@@ -3,7 +3,6 @@
 
 int main(void) {
 	double salario, imposto = 0.0;
-
 	scanf("%lf", &salario);
 
 	if (salario <= 2000.00) {
@@ -20,9 +19,7 @@ int main(void) {
 		if (salario > 2000.00) {
 			imposto += (salario - 2000.00) * 0.08;
 		}
-
 		printf("R$ %.2f\n", imposto);
 	}
-
 	return 0;
 }
